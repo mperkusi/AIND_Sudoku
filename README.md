@@ -1,11 +1,8 @@
-# Artificial Intelligence Nanodegree
-## Introductory Project: Diagonal Sudoku Solver
+# Diagonal Sudoku Solver
 
-# Question 1 (Naked Twins)
 Q: How do we use constraint propagation to solve the naked twins problem?  
 A: We use the concept of naked twins to restrict the possible values of boxes in the same unit in which the naked twins were found. With this restriction, we reduce the search space.
 
-# Question 2 (Diagonal Sudoku)
 Q: How do we use constraint propagation to solve the diagonal sudoku problem?  
 A: We used three strategies, namely, elimination, only choice and naked twins, to reduce possible values of the boxes, consequently, reducing the search space. The only difference when comparing to standard sudoku was to add the diagonals as units.
 
